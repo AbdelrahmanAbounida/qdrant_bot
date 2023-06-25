@@ -7,5 +7,3 @@
 1. Clone this repo!
 2. Install dependencies: `npm install`
 3. Run the development server: `npm run dev`
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
