@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (min-width: 400px) {
+  .background-gradient::before {
+    background: radial-gradient(
+      20% 50% at 50% 50%,
+      rgba(124, 71, 247, 0.376) 0%,
+      rgba(37, 38, 44, 0) 0%
+      /* rgba(37, 38, 44, 0) 100% */
+    );
+    z-index: -10;
+    content: "";
+    position: absolute;
+    inset: 0px;
+    transform: scale(1);
+    pointer-events: none;
+  }
+}
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #6120d1;
+}
+
